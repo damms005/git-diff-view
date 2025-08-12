@@ -1,9 +1,9 @@
 {
-  "name": "@git-diff-view/core",
+  "name": "@damms005/git-diff-view-core",
   "description": "@git-diff-view/core",
-  "author": "MrWangJustToDo",
+  "author": "Damilola Olowookere",
   "license": "MIT",
-  "version": "0.0.31",
+  "version": "0.0.31-custom",
   "main": "index.js",
   "types": "index.d.ts",
   "files": [
@@ -17,10 +17,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MrWangJustToDo/git-diff-view.git",
+    "url": "git+https://github.com/damms005/git-diff-view.git",
     "directory": "packages/core"
   },
-  "homepage": "https://mrwangjusttodo.github.io/git-diff-view",
+  "homepage": "https://damms005.github.io/git-diff-view",
   "exports": {
     ".": {
       "require": "./index.js",

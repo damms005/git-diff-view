@@ -1,9 +1,9 @@
 {
-  "name": "@git-diff-view/vue",
+  "name": "@damms005/git-diff-view-vue",
   "description": "@git-diff-view/vue",
-  "author": "MrWangJustToDo",
+  "author": "Damilola Olowookere",
   "license": "MIT",
-  "version": "0.0.31",
+  "version": "0.0.31-custom",
   "main": "./dist/vue-git-diff-view.mjs",
   "type": "module",
   "types": "index.d.ts",
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MrWangJustToDo/git-diff-view.git",
+    "url": "git+https://github.com/damms005/git-diff-view.git",
     "directory": "packages/vue"
   },
   "scripts": {
@@ -26,7 +26,7 @@
     "gen:css": "npm run gen:css1 && npm run gen:css2",
     "gen:type": "dts-bundle-generator -o index.d.ts dist/types/index.d.ts"
   },
-  "homepage": "https://mrwangjusttodo.github.io/git-diff-view",
+  "homepage": "https://damms005.github.io/git-diff-view",
   "exports": {
     ".": {
       "require": "./index.cjs",
@@ -41,7 +41,7 @@
     "vue diff component"
   ],
   "dependencies": {
-    "@git-diff-view/core": "^0.0.31",
+    "@damms005/git-diff-view-core": "^0.0.31-custom",
     "@types/hast": "^3.0.0",
     "highlight.js": "^11.11.0",
     "lowlight": "^3.3.0",
